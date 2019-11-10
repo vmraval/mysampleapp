@@ -7,6 +7,7 @@ public class JavaClass {
         if ( INSTANCE == null )
         {
             INSTANCE = new JavaClass();
+            System.out.println("No this is only commit and not push");
         }
         return INSTANCE;
     }
