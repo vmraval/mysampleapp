@@ -11,7 +11,7 @@ public class ParallelArrays {
             index -> ThreadLocalRandom.current().nextInt( 1000000 ) );
         Arrays.stream( arrayOfLong ).limit( 10 ).forEach( 
             i -> System.out.print( i + " " ) );
-        System.out.println();
+        System.out.println("Test");
 		
         Arrays.parallelSort( arrayOfLong );		
         Arrays.stream( arrayOfLong ).limit( 10 ).forEach( 
