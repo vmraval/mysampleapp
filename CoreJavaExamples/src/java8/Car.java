@@ -12,7 +12,7 @@ public class Car {
 	}
 
 	public static void collide(final Car car) {
-		System.out.println("Collided" + car.toString());
+		System.out.println("Collided modified for jenkins" + car.toString());
 	}
 
 	public void follow(final Car another) {
